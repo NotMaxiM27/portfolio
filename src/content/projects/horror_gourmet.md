@@ -9,7 +9,7 @@ downloadUrl: "https://nabi-studios.itch.io/horror-gourmet"
 order: 1
 ---
 
-<video src="/videos/horror_gourmet_overview.mp4" autoplay loop muted playsinline controls></video>
+<video src="/portfolio/videos/horror_gourmet_overview.mp4" autoplay loop muted playsinline controls></video>
 
 ## Description
 > **Horror Gourmet** is a first person, single player cooking game inspired by Overcooked, where the player must prepare meals for monsters. He needs to read incoming orders and cook the recipes before the timer expires, navigating through various levels and environmental hazards.

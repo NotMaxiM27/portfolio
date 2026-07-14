@@ -26,7 +26,7 @@ order: 2
   - **Patrolling (Blue Light)**: Following standard patrol routes.
   - **Alert (Yellow Light)**: Investigating the player's last known position.
   - **Attacking (Red Light)**: Preparing an attack. If they attach to the player, they explode, triggering a checkpoint restart.
-<video src="/videos/K4b00m Overview.mp4" autoplay loop muted playsinline controls></video>
+<video src="/portfolio/videos/K4b00m Overview.mp4" autoplay loop muted playsinline controls></video>
 - **Companion System (R0bby)**: Implemented a robotic magpie companion. If and object gets illuminated by the player's light beam, R0bby assists in collecting it.
 - **Inventory & Inspection System**: Built an inventory UI that allows players to collect, store and inspect items in 3D, alongside a carefully animated **workbench** that allows the player to receive upgrades.
 - **Advanced Animation Systems**: Meticulously crafted **Animation Blueprints** and **Blend Spaces**. This includes idle animations like K4-B00M randomly "blinking" its claws or looking around, making the characters feel realistic and responsive. Utilized **Inverse Kinematics (IK)** and head tracking for the arm of the workbench.

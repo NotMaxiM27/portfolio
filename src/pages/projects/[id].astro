@@ -29,6 +29,8 @@ const tagColors: Record<string, string> = {
   'Math': '#aa00ff',
 };
 const getTagColor = (tag: string) => tagColors[tag] || '#00ffff';
+
+const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
 ---
 
 <html lang="it">
@@ -109,9 +111,9 @@ const getTagColor = (tag: string) => tagColors[tag] || '#00ffff';
             playsinline
             controls
             preload="metadata"
-            poster={project.data.image ? (project.data.image.startsWith('/') ? import.meta.env.BASE_URL + project.data.image.slice(1) : project.data.image) : undefined}
+            poster={project.data.image ? (project.data.image.startsWith('/') ? baseUrl + project.data.image.slice(1) : project.data.image) : undefined}
           >
-            <source src={encodeURI(project.data.video.startsWith('/') ? import.meta.env.BASE_URL + project.data.video.slice(1) : project.data.video)} type="video/mp4" />
+            <source src={encodeURI(project.data.video.startsWith('/') ? baseUrl + project.data.video.slice(1) : project.data.video)} type="video/mp4" />
             Il tuo browser non supporta la riproduzione di video.
           </video>
         </div>
